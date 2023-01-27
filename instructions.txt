@@ -1,0 +1,71 @@
+npx creat-react-app <project_name>
+
+rfec tab to create a function in react
+rce tab to create a class in react
+
+if class in react extend components/folder name
+if function try to use arrow methods
+
+in function import React from 'react'
+in class import React, {component/folder name} from 'react'
+
+default export ___.js at end of function/class
+
+for importing class or function to main file just import Class/function name from path of class/function and do not need extension
+
+if props use not editable in function use props and class this.props
+if state declared inside class function so change is possible in function usestate hook and in class this.state while declaring and this.setstate while updating variable
+
+if we want to add any function for exection after state is updated we can pass it as the second arrgument of set state.
+
+if want to update it according to prev state pass function as arrgument
+
+Destructuring props
+const {v1, v2} = this.props keep it same as passed in argument do not need to access all. 
+const {v1, v2} = this.props keep it same as passed in argument do not need to access all. 
+Note do not need to create variable for all props just create for the ones that you want to destructure.
+
+use arrow function if don't want to have issue of binding
+
+mounting lifecycle of class
+
+constructor
+static method
+render function
+componentDidMount
+
+if parent and child
+
+parent constructor
+parent static method
+parent render function
+child constructor
+child static method
+child render function
+child componentDidMount
+parent componentDidMount
+
+update lifecycle
+
+StaticGetDrivedState
+ShouldComponentUpdate
+Render
+GetsnapshotBeforeUpdate
+ComponentDidUpdate
+
+if parent and child
+
+Parent StaticGetDrivedState
+Parent ShouldComponentUpdate
+Parent Render
+child StaticGetDrivedState
+child ShouldComponentUpdate
+child Render
+child GetsnapshotBeforeUpdate
+Parent GetsnapshotBeforeUpdate
+child ComponentDidUpdate
+Parent ComponentDidUpdate
+
+pure component or memo help us to stop rerendering without change in props and state
+
+when you write HOC (Higher Order Components) the props go to HOC not the wrapped component so pass props from HOC and then use its functions freely.
